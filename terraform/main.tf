@@ -135,7 +135,9 @@ spec:
         image: nginx:1.19
         resources:
           limits:
-            memory: 1Ki
+            memory: 128Mi
+          request: 
+            memory: 64Mi  
 EOF
 EOT
     ]
